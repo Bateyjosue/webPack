@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    place-content: center;
+    margin-top: 10rem;
+    color: #fff;
+    background-color: bisque;
+    font-family:impact, sans-serif;
+    font-size:10rem;
+    font-weight: 700;
+    transition: all 4000ms ease ;
+}
+body:hover {
+    transform: translate(-20%);
+    background: #0d0;
+}
