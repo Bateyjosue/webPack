@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watch --coverage",
     "dev": "webpack --mode development",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
@@ -26,6 +26,7 @@
     "webpack-dev-server": "^4.10.0"
   },
   "dependencies": {
+    "jest": "^29.0.2",
     "moment": "^2.29.4"
   }
 }
